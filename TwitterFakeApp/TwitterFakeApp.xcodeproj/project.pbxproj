@@ -15,6 +15,8 @@
 		C51173CE25C0C60400A256F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51173CC25C0C60400A256F3 /* LaunchScreen.storyboard */; };
 		C51173D925C0C60400A256F3 /* TwitterFakeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51173D825C0C60400A256F3 /* TwitterFakeAppTests.swift */; };
 		C51173E425C0C60400A256F3 /* TwitterFakeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51173E325C0C60400A256F3 /* TwitterFakeAppUITests.swift */; };
+		C51173FB25C0C7BE00A256F3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51173FA25C0C7BE00A256F3 /* BaseViewController.swift */; };
+		C511740025C0C7FE00A256F3 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51173FF25C0C7FE00A256F3 /* BasePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C51173DF25C0C60400A256F3 /* TwitterFakeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterFakeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51173E325C0C60400A256F3 /* TwitterFakeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFakeAppUITests.swift; sourceTree = "<group>"; };
 		C51173E525C0C60400A256F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51173FA25C0C7BE00A256F3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C51173FF25C0C7FE00A256F3 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				C51173C125C0C60300A256F3 /* AppDelegate.swift */,
 				C51173C325C0C60300A256F3 /* SceneDelegate.swift */,
+				C51173F425C0C74A00A256F3 /* Scenes */,
 				C51173C525C0C60300A256F3 /* ViewController.swift */,
 				C51173C725C0C60300A256F3 /* Main.storyboard */,
 				C51173CA25C0C60400A256F3 /* Assets.xcassets */,
@@ -126,6 +131,23 @@
 				C51173E525C0C60400A256F3 /* Info.plist */,
 			);
 			path = TwitterFakeAppUITests;
+			sourceTree = "<group>";
+		};
+		C51173F425C0C74A00A256F3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C51173F825C0C77C00A256F3 /* Base */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C51173F825C0C77C00A256F3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C51173FA25C0C7BE00A256F3 /* BaseViewController.swift */,
+				C51173FF25C0C7FE00A256F3 /* BasePresenter.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51173C625C0C60300A256F3 /* ViewController.swift in Sources */,
+				C511740025C0C7FE00A256F3 /* BasePresenter.swift in Sources */,
+				C51173FB25C0C7BE00A256F3 /* BaseViewController.swift in Sources */,
 				C51173C225C0C60300A256F3 /* AppDelegate.swift in Sources */,
 				C51173C425C0C60300A256F3 /* SceneDelegate.swift in Sources */,
 			);
