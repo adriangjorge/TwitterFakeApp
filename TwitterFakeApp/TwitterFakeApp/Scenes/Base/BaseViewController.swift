@@ -7,8 +7,14 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+protocol BasePresenterLogic {
     
-    
+}
+
+class BaseViewController: UIViewController, BaseDisplayLogic {
+
+    func setupView() {
+        view.backgroundColor = .red
+    }
     
 }
