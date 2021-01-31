@@ -5,7 +5,7 @@
 //  Created by Adrián G. Jorge on 26/1/21.
 //
 
-protocol BaseDisplayLogic {
+protocol BaseDisplayLogic: class {
     func setupView()
 }
 

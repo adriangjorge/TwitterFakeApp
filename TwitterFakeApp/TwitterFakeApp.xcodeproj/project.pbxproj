@@ -19,6 +19,32 @@
 		C511740B25C0C8B600A256F3 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511740A25C0C8B600A256F3 /* LoginPresenter.swift */; };
 		C511741025C0C8C900A256F3 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511740F25C0C8C900A256F3 /* LoginModels.swift */; };
 		C511741525C0CA0F00A256F3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C511741425C0CA0F00A256F3 /* Login.storyboard */; };
+		C511743D25C202C500A256F3 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511743C25C202C500A256F3 /* LoginService.swift */; };
+		C511744525C203B100A256F3 /* ServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511744425C203B100A256F3 /* ServiceResult.swift */; };
+		C511744D25C204C900A256F3 /* LoginServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511744C25C204C900A256F3 /* LoginServiceMock.swift */; };
+		C511745225C218B900A256F3 /* SceneName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511745125C218B900A256F3 /* SceneName.swift */; };
+		C511745C25C2213000A256F3 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C511745B25C2213000A256F3 /* Dashboard.storyboard */; };
+		C511746125C2215000A256F3 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511746025C2215000A256F3 /* DashboardViewController.swift */; };
+		C511746625C22AF200A256F3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511746525C22AF200A256F3 /* RoundedButton.swift */; };
+		C511746C25C2302800A256F3 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C511746B25C2302800A256F3 /* Loading.storyboard */; };
+		C511747525C5E9EA00A256F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C511747425C5E9EA00A256F3 /* Main.storyboard */; };
+		C511747A25C5EDD200A256F3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511747925C5EDD200A256F3 /* MainViewController.swift */; };
+		C511747F25C5EF0B00A256F3 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511747E25C5EF0B00A256F3 /* MainPresenter.swift */; };
+		C511748725C5FF1800A256F3 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511748525C5FF1800A256F3 /* TweetTableViewCell.swift */; };
+		C511748825C5FF1800A256F3 /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C511748625C5FF1800A256F3 /* TweetTableViewCell.xib */; };
+		C511749025C5FFBE00A256F3 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511748F25C5FFBE00A256F3 /* DashboardPresenter.swift */; };
+		C511749625C61C0B00A256F3 /* SocialBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511749525C61C0B00A256F3 /* SocialBarView.swift */; };
+		C511749B25C61C2000A256F3 /* SocialBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C511749A25C61C2000A256F3 /* SocialBarView.xib */; };
+		C51174A325C6305000A256F3 /* DashboardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51174A225C6305000A256F3 /* DashboardModels.swift */; };
+		C51174A925C633A100A256F3 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51174A825C633A100A256F3 /* DashboardService.swift */; };
+		C51174B125C633AC00A256F3 /* DashboardServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51174B025C633AC00A256F3 /* DashboardServiceMock.swift */; };
+		C51174B725C6346F00A256F3 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51174B625C6346F00A256F3 /* Tweet.swift */; };
+		C51174BC25C634F500A256F3 /* SimpleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51174BB25C634F500A256F3 /* SimpleUser.swift */; };
+		C51174C125C635B400A256F3 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51174C025C635B400A256F3 /* Pagination.swift */; };
+		C51174C825C7044600A256F3 /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51174C625C7044600A256F3 /* LoadingTableViewCell.swift */; };
+		C51174C925C7044600A256F3 /* LoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51174C725C7044600A256F3 /* LoadingTableViewCell.xib */; };
+		C5E12F8025C722C500DAC86B /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E12F7F25C722C500DAC86B /* PaddingLabel.swift */; };
+		C5E12F8925C7252800DAC86B /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E12F8825C7252800DAC86B /* SideMenu.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +83,32 @@
 		C511740A25C0C8B600A256F3 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		C511740F25C0C8C900A256F3 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
 		C511741425C0CA0F00A256F3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C511743C25C202C500A256F3 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		C511744425C203B100A256F3 /* ServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResult.swift; sourceTree = "<group>"; };
+		C511744C25C204C900A256F3 /* LoginServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceMock.swift; sourceTree = "<group>"; };
+		C511745125C218B900A256F3 /* SceneName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneName.swift; sourceTree = "<group>"; };
+		C511745B25C2213000A256F3 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		C511746025C2215000A256F3 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C511746525C22AF200A256F3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		C511746B25C2302800A256F3 /* Loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
+		C511747425C5E9EA00A256F3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C511747925C5EDD200A256F3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C511747E25C5EF0B00A256F3 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		C511748525C5FF1800A256F3 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		C511748625C5FF1800A256F3 /* TweetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
+		C511748F25C5FFBE00A256F3 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		C511749525C61C0B00A256F3 /* SocialBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialBarView.swift; sourceTree = "<group>"; };
+		C511749A25C61C2000A256F3 /* SocialBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialBarView.xib; sourceTree = "<group>"; };
+		C51174A225C6305000A256F3 /* DashboardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModels.swift; sourceTree = "<group>"; };
+		C51174A825C633A100A256F3 /* DashboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardService.swift; sourceTree = "<group>"; };
+		C51174B025C633AC00A256F3 /* DashboardServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardServiceMock.swift; sourceTree = "<group>"; };
+		C51174B625C6346F00A256F3 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		C51174BB25C634F500A256F3 /* SimpleUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUser.swift; sourceTree = "<group>"; };
+		C51174C025C635B400A256F3 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		C51174C625C7044600A256F3 /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
+		C51174C725C7044600A256F3 /* LoadingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingTableViewCell.xib; sourceTree = "<group>"; };
+		C5E12F7F25C722C500DAC86B /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		C5E12F8825C7252800DAC86B /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +162,9 @@
 				C51173C125C0C60300A256F3 /* AppDelegate.swift */,
 				C51173C325C0C60300A256F3 /* SceneDelegate.swift */,
 				C51173F425C0C74A00A256F3 /* Scenes */,
+				C511745925C2203300A256F3 /* Components */,
+				C511743A25C2028600A256F3 /* Services */,
+				C51174B525C6345800A256F3 /* Models */,
 				C511742625C0CC0E00A256F3 /* Utils */,
 				C51173CA25C0C60400A256F3 /* Assets.xcassets */,
 				C51173CF25C0C60400A256F3 /* Info.plist */,
@@ -138,9 +193,14 @@
 		C51173F425C0C74A00A256F3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				C511745125C218B900A256F3 /* SceneName.swift */,
 				C51173F825C0C77C00A256F3 /* Base */,
 				C511741C25C0CB2A00A256F3 /* LaunchScreen */,
+				C511746A25C2300600A256F3 /* Loading */,
+				C511747025C5E52400A256F3 /* Main */,
+				C5E12F8725C724FB00DAC86B /* SideMenu */,
 				C511740425C0C87700A256F3 /* Login */,
+				C511745A25C2207500A256F3 /* Dashboard */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -178,6 +238,128 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		C511743A25C2028600A256F3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C511744425C203B100A256F3 /* ServiceResult.swift */,
+				C511743B25C2029C00A256F3 /* Login */,
+				C51174A725C6335800A256F3 /* Dashboard */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C511743B25C2029C00A256F3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C511743C25C202C500A256F3 /* LoginService.swift */,
+				C511744C25C204C900A256F3 /* LoginServiceMock.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C511745925C2203300A256F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C511748425C5FED400A256F3 /* RoundedButton */,
+				C5E12F7F25C722C500DAC86B /* PaddingLabel.swift */,
+				C511748325C5FEB500A256F3 /* TweetCell */,
+				C511749425C61BE200A256F3 /* SocialBar */,
+				C51174C525C703EE00A256F3 /* LoadingCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C511745A25C2207500A256F3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C511745B25C2213000A256F3 /* Dashboard.storyboard */,
+				C511746025C2215000A256F3 /* DashboardViewController.swift */,
+				C511748F25C5FFBE00A256F3 /* DashboardPresenter.swift */,
+				C51174A225C6305000A256F3 /* DashboardModels.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C511746A25C2300600A256F3 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				C511746B25C2302800A256F3 /* Loading.storyboard */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		C511747025C5E52400A256F3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C511747425C5E9EA00A256F3 /* Main.storyboard */,
+				C511747925C5EDD200A256F3 /* MainViewController.swift */,
+				C511747E25C5EF0B00A256F3 /* MainPresenter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C511748325C5FEB500A256F3 /* TweetCell */ = {
+			isa = PBXGroup;
+			children = (
+				C511748625C5FF1800A256F3 /* TweetTableViewCell.xib */,
+				C511748525C5FF1800A256F3 /* TweetTableViewCell.swift */,
+			);
+			path = TweetCell;
+			sourceTree = "<group>";
+		};
+		C511748425C5FED400A256F3 /* RoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				C511746525C22AF200A256F3 /* RoundedButton.swift */,
+			);
+			path = RoundedButton;
+			sourceTree = "<group>";
+		};
+		C511749425C61BE200A256F3 /* SocialBar */ = {
+			isa = PBXGroup;
+			children = (
+				C511749A25C61C2000A256F3 /* SocialBarView.xib */,
+				C511749525C61C0B00A256F3 /* SocialBarView.swift */,
+			);
+			path = SocialBar;
+			sourceTree = "<group>";
+		};
+		C51174A725C6335800A256F3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C51174A825C633A100A256F3 /* DashboardService.swift */,
+				C51174B025C633AC00A256F3 /* DashboardServiceMock.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C51174B525C6345800A256F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C51174B625C6346F00A256F3 /* Tweet.swift */,
+				C51174BB25C634F500A256F3 /* SimpleUser.swift */,
+				C51174C025C635B400A256F3 /* Pagination.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C51174C525C703EE00A256F3 /* LoadingCell */ = {
+			isa = PBXGroup;
+			children = (
+				C51174C725C7044600A256F3 /* LoadingTableViewCell.xib */,
+				C51174C625C7044600A256F3 /* LoadingTableViewCell.swift */,
+			);
+			path = LoadingCell;
+			sourceTree = "<group>";
+		};
+		C5E12F8725C724FB00DAC86B /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C5E12F8825C7252800DAC86B /* SideMenu.storyboard */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +467,14 @@
 			files = (
 				C511741525C0CA0F00A256F3 /* Login.storyboard in Resources */,
 				C51173CE25C0C60400A256F3 /* LaunchScreen.storyboard in Resources */,
+				C511748825C5FF1800A256F3 /* TweetTableViewCell.xib in Resources */,
+				C51174C925C7044600A256F3 /* LoadingTableViewCell.xib in Resources */,
 				C51173CB25C0C60400A256F3 /* Assets.xcassets in Resources */,
+				C511747525C5E9EA00A256F3 /* Main.storyboard in Resources */,
+				C5E12F8925C7252800DAC86B /* SideMenu.storyboard in Resources */,
+				C511749B25C61C2000A256F3 /* SocialBarView.xib in Resources */,
+				C511746C25C2302800A256F3 /* Loading.storyboard in Resources */,
+				C511745C25C2213000A256F3 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,11 +501,30 @@
 			files = (
 				C511740625C0C8A400A256F3 /* LoginViewController.swift in Sources */,
 				C511741025C0C8C900A256F3 /* LoginModels.swift in Sources */,
+				C511749025C5FFBE00A256F3 /* DashboardPresenter.swift in Sources */,
 				C511740B25C0C8B600A256F3 /* LoginPresenter.swift in Sources */,
+				C51174B125C633AC00A256F3 /* DashboardServiceMock.swift in Sources */,
 				C511740025C0C7FE00A256F3 /* BasePresenter.swift in Sources */,
+				C511749625C61C0B00A256F3 /* SocialBarView.swift in Sources */,
 				C51173FB25C0C7BE00A256F3 /* BaseViewController.swift in Sources */,
+				C511744525C203B100A256F3 /* ServiceResult.swift in Sources */,
 				C51173C225C0C60300A256F3 /* AppDelegate.swift in Sources */,
+				C5E12F8025C722C500DAC86B /* PaddingLabel.swift in Sources */,
+				C51174C825C7044600A256F3 /* LoadingTableViewCell.swift in Sources */,
+				C511747A25C5EDD200A256F3 /* MainViewController.swift in Sources */,
+				C511746125C2215000A256F3 /* DashboardViewController.swift in Sources */,
+				C511744D25C204C900A256F3 /* LoginServiceMock.swift in Sources */,
+				C51174A325C6305000A256F3 /* DashboardModels.swift in Sources */,
+				C511747F25C5EF0B00A256F3 /* MainPresenter.swift in Sources */,
+				C51174BC25C634F500A256F3 /* SimpleUser.swift in Sources */,
+				C511745225C218B900A256F3 /* SceneName.swift in Sources */,
 				C51173C425C0C60300A256F3 /* SceneDelegate.swift in Sources */,
+				C511743D25C202C500A256F3 /* LoginService.swift in Sources */,
+				C511746625C22AF200A256F3 /* RoundedButton.swift in Sources */,
+				C51174A925C633A100A256F3 /* DashboardService.swift in Sources */,
+				C51174C125C635B400A256F3 /* Pagination.swift in Sources */,
+				C511748725C5FF1800A256F3 /* TweetTableViewCell.swift in Sources */,
+				C51174B725C6346F00A256F3 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

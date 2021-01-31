@@ -7,14 +7,23 @@
 
 import UIKit
 
-protocol BasePresenterLogic {
-    
+protocol BasePresenterLogic: class {
+    func setupView()
 }
 
-class BaseViewController: UIViewController, BaseDisplayLogic {
-
-    func setupView() {
-        view.backgroundColor = .red
+class BaseViewController: UIViewController {
+    
+    // MARK: Loading screen
+    
+    private var loadingVC: UIViewController?
+    
+    func showLoading() {
+        guard let viewController = UIStoryboard(name: SceneName.loading, bundle: nil).instantiateInitialViewController()  else { return }
+        loadingVC = viewController
+        view.addSubview(viewController.view)
     }
     
+    func dismissLoading() {
+        loadingVC?.view.removeFromSuperview()
+    }
 }
